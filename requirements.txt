@@ -1,0 +1,24 @@
+# Xử lý dữ liệu
+numpy
+pandas
+scipy
+
+# Machine Learning cơ bản
+scikit-learn
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+torch-geometric   # cho Graph Neural Networks
+
+# Trực quan hóa
+matplotlib
+seaborn
+networkx          # vẽ và xử lý graph
+
+# Tiện ích
+tqdm              # progress bar
+jupyter           # notebook
+
+ipykernel
