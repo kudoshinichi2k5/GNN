@@ -1,0 +1,14 @@
+name: nt114-kienlt
+dependencies:
+  - python=3.10  # Dùng 3.10 để ổn định nhất cho Torch Geometric
+  - numpy<2.0.0  # ÉP dùng bản 1.x để tránh lỗi AttributeError
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+      - torch --index-url https://download.pytorch.org/whl/cu118  # Thay cu118 bằng phiên bản CUDA của bạn
+      - torch-geometric
+      - networkx
+      - tqdm
